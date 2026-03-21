@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="AchievementData" format=3 uid="uid://d2ocu1h3wab6h"]
+
+[ext_resource type="Texture2D" uid="uid://ce3ly8jm3legf" path="res://icons/Masochist.jpg" id="1_51hyf"]
+[ext_resource type="Script" uid="uid://dulfproygmqx7" path="res://achievemnt_data.gd" id="1_bylth"]
+
+[resource]
+script = ExtResource("1_bylth")
+icon = ExtResource("1_51hyf")
+name = "Masochist"
+requirements = "Reach the Abyss in Hard Mode."
+flag = "ACH_HARDMODEABYSS"
+metadata/_custom_type_script = "uid://dulfproygmqx7"

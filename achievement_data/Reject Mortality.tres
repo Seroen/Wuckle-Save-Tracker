@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="AchievementData" format=3 uid="uid://b2uqvvvs4p7p6"]
+
+[ext_resource type="Texture2D" uid="uid://dam1a5da31654" path="res://icons/Reject Mortality.jpg" id="1_kkqc1"]
+[ext_resource type="Script" uid="uid://dulfproygmqx7" path="res://achievemnt_data.gd" id="1_lutgv"]
+
+[resource]
+script = ExtResource("1_lutgv")
+icon = ExtResource("1_kkqc1")
+name = "Reject Mortality"
+requirements = "Revive."
+flag = "ACH_REVIVE"
+metadata/_custom_type_script = "uid://dulfproygmqx7"

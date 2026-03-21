@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="AchievementData" format=3 uid="uid://2u84dcuvxvep"]
+
+[ext_resource type="Script" uid="uid://dulfproygmqx7" path="res://achievemnt_data.gd" id="1_ge0lp"]
+[ext_resource type="Texture2D" uid="uid://bxx5px6mjbjwe" path="res://icons/Art Enthusiast.jpg" id="1_j3mi3"]
+
+[resource]
+script = ExtResource("1_ge0lp")
+icon = ExtResource("1_j3mi3")
+name = "Art Enthusiast"
+requirements = "Find a mural."
+flag = "ACH_GRAFFITIFINDER"
+metadata/_custom_type_script = "uid://dulfproygmqx7"

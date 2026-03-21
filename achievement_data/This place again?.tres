@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="AchievementData" format=3 uid="uid://uyq8w0e1p8kr"]
+
+[ext_resource type="Script" uid="uid://dulfproygmqx7" path="res://achievemnt_data.gd" id="1_8450b"]
+[ext_resource type="Texture2D" uid="uid://div2bg5275ak4" path="res://icons/This place again?.jpg" id="1_ln3yu"]
+
+[resource]
+script = ExtResource("1_8450b")
+icon = ExtResource("1_ln3yu")
+name = "This place again?"
+requirements = "Loop in Endless Underworks"
+flag = "ACH_SILOLOOP"
+metadata/_custom_type_script = "uid://dulfproygmqx7"

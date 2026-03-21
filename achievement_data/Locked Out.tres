@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="AchievementData" format=3 uid="uid://du120noa34tse"]
+
+[ext_resource type="Script" uid="uid://dulfproygmqx7" path="res://achievemnt_data.gd" id="1_dcc8r"]
+[ext_resource type="Texture2D" uid="uid://dt3cafoq63602" path="res://icons/Locked Out.jpg" id="1_xokav"]
+
+[resource]
+script = ExtResource("1_dcc8r")
+icon = ExtResource("1_xokav")
+name = "Locked Out"
+requirements = "Get trapped by a Silos door."
+flag = "ACH_LOCKEDOUT"
+metadata/_custom_type_script = "uid://dulfproygmqx7"

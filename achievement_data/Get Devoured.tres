@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="AchievementData" format=3 uid="uid://ch1nrcjssuw1o"]
+
+[ext_resource type="Script" uid="uid://dulfproygmqx7" path="res://achievemnt_data.gd" id="1_6cncs"]
+[ext_resource type="Texture2D" uid="uid://ch2sbcp305sc1" path="res://icons/Get Devoured.jpg" id="1_r5nnq"]
+
+[resource]
+script = ExtResource("1_6cncs")
+icon = ExtResource("1_r5nnq")
+name = "Get Devoured"
+requirements = "Die to Teeth."
+flag = "ACH_TEETHKILL"
+metadata/_custom_type_script = "uid://dulfproygmqx7"

@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="AchievementData" format=3 uid="uid://c6706720qndhj"]
+
+[ext_resource type="Script" uid="uid://dulfproygmqx7" path="res://achievemnt_data.gd" id="1_2vgpe"]
+[ext_resource type="Texture2D" uid="uid://dqmal7rg7im4i" path="res://icons/Accidental Hire.jpg" id="1_goue2"]
+
+[resource]
+script = ExtResource("1_2vgpe")
+icon = ExtResource("1_goue2")
+name = "Accidental Hire"
+requirements = "Finish the Tutorial."
+flag = "ACH_TUTORIAL"
+metadata/_custom_type_script = "uid://dulfproygmqx7"

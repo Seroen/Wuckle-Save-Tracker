@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="AchievementData" format=3 uid="uid://ccrp4dp8nh5nd"]
+
+[ext_resource type="Texture2D" uid="uid://chuqjjmynd24a" path="res://icons/New Best Friend.jpg" id="1_w3gbt"]
+[ext_resource type="Script" uid="uid://dulfproygmqx7" path="res://achievemnt_data.gd" id="1_y4ovf"]
+
+[resource]
+script = ExtResource("1_y4ovf")
+icon = ExtResource("1_w3gbt")
+name = "New Best Friend"
+requirements = "Pet a Strider"
+flag = "ACH_STRIDERPET"
+metadata/_custom_type_script = "uid://dulfproygmqx7"

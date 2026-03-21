@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="AchievementData" format=3 uid="uid://xy88r67ml654"]
+
+[ext_resource type="Texture2D" uid="uid://de76e7l8jaija" path="res://icons/Condemned No More.jpg" id="1_7xcuk"]
+[ext_resource type="Script" uid="uid://dulfproygmqx7" path="res://achievemnt_data.gd" id="1_520gs"]
+
+[resource]
+script = ExtResource("1_520gs")
+icon = ExtResource("1_7xcuk")
+name = "Condemned No More"
+requirements = "Finish Parasite."
+flag = "ACH_PARASITE"
+metadata/_custom_type_script = "uid://dulfproygmqx7"

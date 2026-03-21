@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AchievementData" format=3 uid="uid://bot00uep6sbwd"]
+
+[ext_resource type="Texture2D" uid="uid://cvp1inukikt3b" path="res://icons/Middle Class.jpg" id="1_lqd42"]
+[ext_resource type="Script" uid="uid://dulfproygmqx7" path="res://achievemnt_data.gd" id="1_n8lek"]
+
+[resource]
+script = ExtResource("1_n8lek")
+icon = ExtResource("1_lqd42")
+name = "Middle Class"
+requirements = "Bank 50 roaches."
+flag = "ACH_50ROACHES"
+bank_goal = 50
+metadata/_custom_type_script = "uid://dulfproygmqx7"

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="AchievementData" format=3 uid="uid://560jde6dpm1u"]
+
+[ext_resource type="Texture2D" uid="uid://ygbsak48kdjq" path="res://icons/Gold Source.jpg" id="1_8r36d"]
+[ext_resource type="Script" uid="uid://dulfproygmqx7" path="res://achievemnt_data.gd" id="1_j1fl7"]
+
+[resource]
+script = ExtResource("1_j1fl7")
+icon = ExtResource("1_8r36d")
+name = "Gold Source"
+requirements = "Get 5 gold+ medals."
+flag = "ACH_CHA_GOLD_5"
+medal_type = 3
+medal_goal = 5
+metadata/_custom_type_script = "uid://dulfproygmqx7"

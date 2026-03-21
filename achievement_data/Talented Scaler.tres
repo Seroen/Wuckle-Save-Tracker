@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="AchievementData" format=3 uid="uid://6beiml61h4cx"]
+
+[ext_resource type="Script" uid="uid://dulfproygmqx7" path="res://achievemnt_data.gd" id="1_ogjcy"]
+[ext_resource type="Texture2D" uid="uid://34t3txo7x62t" path="res://icons/Talented Scaler.jpg" id="1_s37uh"]
+
+[resource]
+script = ExtResource("1_ogjcy")
+icon = ExtResource("1_s37uh")
+name = "Talented Scaler"
+requirements = "Climb 1km in a run."
+flag = "ACH_1000_METERS"
+metadata/_custom_type_script = "uid://dulfproygmqx7"

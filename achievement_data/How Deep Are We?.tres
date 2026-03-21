@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="AchievementData" format=3 uid="uid://dh1fxtgscau07"]
+
+[ext_resource type="Script" uid="uid://dulfproygmqx7" path="res://achievemnt_data.gd" id="1_0k6mx"]
+[ext_resource type="Texture2D" uid="uid://dy4ipm0v7yc1u" path="res://icons/How Deep Are We?.jpg" id="1_jdkt0"]
+
+[resource]
+script = ExtResource("1_0k6mx")
+icon = ExtResource("1_jdkt0")
+name = "How Deep Are We?"
+requirements = "Reach Habitation."
+flag = "ACH_HABITATION"
+metadata/_custom_type_script = "uid://dulfproygmqx7"

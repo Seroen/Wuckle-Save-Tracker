@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="AchievementData" format=3 uid="uid://ypfpqf7tvv5m"]
+
+[ext_resource type="Texture2D" uid="uid://brncwvfcuif37" path="res://icons/Endangered.jpg" id="1_v0it1"]
+[ext_resource type="Script" uid="uid://dulfproygmqx7" path="res://achievemnt_data.gd" id="1_vge87"]
+
+[resource]
+script = ExtResource("1_vge87")
+icon = ExtResource("1_v0it1")
+name = "Endangered"
+requirements = "Crush 50 Grubs."
+flag = "ACH_50GRUBSKILLED"
+stat_id = "grubs-used"
+stat_goal = 50
+metadata/_custom_type_script = "uid://dulfproygmqx7"

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AchievementData" format=3 uid="uid://dmqrhx85lfo7g"]
+
+[ext_resource type="Texture2D" uid="uid://cge63rjm607lk" path="res://icons/Too Big to Fail.jpg" id="1_6kmp4"]
+[ext_resource type="Script" uid="uid://dulfproygmqx7" path="res://achievemnt_data.gd" id="1_nm43s"]
+
+[resource]
+script = ExtResource("1_nm43s")
+icon = ExtResource("1_6kmp4")
+name = "Too Big to Fail"
+requirements = "Bank 500 roaches."
+flag = "ACH_500ROACHES"
+bank_goal = 500
+metadata/_custom_type_script = "uid://dulfproygmqx7"

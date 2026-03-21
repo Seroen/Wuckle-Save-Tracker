@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="AchievementData" format=3 uid="uid://bx3in13ym6mod"]
+
+[ext_resource type="Texture2D" uid="uid://cw728n0vn537w" path="res://icons/Construction Worker.jpg" id="1_3pxpu"]
+[ext_resource type="Script" uid="uid://dulfproygmqx7" path="res://achievemnt_data.gd" id="1_4h2uf"]
+
+[resource]
+script = ExtResource("1_4h2uf")
+icon = ExtResource("1_3pxpu")
+name = "Construction Worker"
+requirements = "Place 100 pitons."
+flag = "ACH_PITONIST"
+stat_id = "pitons-used"
+stat_goal = 100
+stat_current = 100
+metadata/_custom_type_script = "uid://dulfproygmqx7"

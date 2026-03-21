@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="AchievementData" format=3 uid="uid://cchm182qn3vm1"]
+
+[ext_resource type="Script" uid="uid://dulfproygmqx7" path="res://achievemnt_data.gd" id="1_4af0r"]
+[ext_resource type="Texture2D" uid="uid://crmq7nyhkcq4q" path="res://icons/Olympic Grade.jpg" id="1_ehgt6"]
+
+[resource]
+script = ExtResource("1_4af0r")
+icon = ExtResource("1_ehgt6")
+name = "Olympic Grade"
+requirements = "Get 5 plat medals."
+flag = "ACH_CHA_PLAT_5"
+medal_type = 4
+medal_goal = 5
+metadata/_custom_type_script = "uid://dulfproygmqx7"

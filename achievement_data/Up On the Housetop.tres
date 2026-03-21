@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="AchievementData" format=3 uid="uid://cvk8m7nebnkr5"]
+
+[ext_resource type="Script" uid="uid://dulfproygmqx7" path="res://achievemnt_data.gd" id="1_iu4fi"]
+[ext_resource type="Texture2D" uid="uid://dwvgvjfb8r4ts" path="res://icons/Up On the Housetop.jpg" id="1_r0vg1"]
+
+[resource]
+script = ExtResource("1_iu4fi")
+icon = ExtResource("1_r0vg1")
+name = "Up On the Housetop"
+requirements = "Loop in the Chimney."
+flag = "ACH_CHIMNEYLOOP"
+metadata/_custom_type_script = "uid://dulfproygmqx7"

@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="AchievementData" format=3 uid="uid://emy4ef8n5udx"]
+
+[ext_resource type="Texture2D" uid="uid://khfd6c4o24fv" path="res://icons/AAAAAAAAAAA.jpg" id="1_e3fxk"]
+[ext_resource type="Script" uid="uid://dulfproygmqx7" path="res://achievemnt_data.gd" id="1_istk2"]
+
+[resource]
+script = ExtResource("1_istk2")
+icon = ExtResource("1_e3fxk")
+name = "AAAAAAAAAAA"
+requirements = "Fall 50 meters."
+flag = "ACH_LONGFALL"
+metadata/_custom_type_script = "uid://dulfproygmqx7"

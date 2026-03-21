@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="AchievementData" format=3 uid="uid://d8j0i0idc3ew"]
+
+[ext_resource type="Script" uid="uid://dulfproygmqx7" path="res://achievemnt_data.gd" id="1_44pvd"]
+[ext_resource type="Texture2D" uid="uid://5vt2gw3qgqj4" path="res://icons/Expert Clamberer.jpg" id="1_uelsa"]
+
+[resource]
+script = ExtResource("1_44pvd")
+icon = ExtResource("1_uelsa")
+name = "Expert Clamberer"
+requirements = "Climb 2km meters in a run."
+flag = "ACH_2000_METERS"
+metadata/_custom_type_script = "uid://dulfproygmqx7"

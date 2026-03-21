@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="AchievementData" format=3 uid="uid://dxew55bp3ya7x"]
+
+[ext_resource type="Texture2D" uid="uid://denhyqbuxl7ny" path="res://icons/Mother.jpg" id="1_fmvmh"]
+[ext_resource type="Script" uid="uid://dulfproygmqx7" path="res://achievemnt_data.gd" id="1_l1sus"]
+
+[resource]
+script = ExtResource("1_l1sus")
+icon = ExtResource("1_fmvmh")
+name = "Mother"
+requirements = "Carry grub up 500m."
+flag = "ACH_MOTHER"
+metadata/_custom_type_script = "uid://dulfproygmqx7"

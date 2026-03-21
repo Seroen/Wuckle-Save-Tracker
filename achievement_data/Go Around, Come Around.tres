@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="AchievementData" format=3 uid="uid://bpajago8r8x4h"]
+
+[ext_resource type="Texture2D" uid="uid://cv7qjr8o6h7dp" path="res://icons/Go Around, Come Around.jpg" id="1_4aw0e"]
+[ext_resource type="Script" uid="uid://dulfproygmqx7" path="res://achievemnt_data.gd" id="1_s5gap"]
+
+[resource]
+script = ExtResource("1_s5gap")
+icon = ExtResource("1_4aw0e")
+name = "Go Around, Come Around"
+requirements = "Loop in Endless Substructure"
+flag = "ACH_SB17LOOP"
+metadata/_custom_type_script = "uid://dulfproygmqx7"

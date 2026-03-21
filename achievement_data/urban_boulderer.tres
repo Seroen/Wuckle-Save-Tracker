@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="AchievementData" format=3 uid="uid://b5w6x6jwqpgj"]
+
+[ext_resource type="Texture2D" uid="uid://ddaxdnuslc0pl" path="res://icons/Urban Boulderer.jpg" id="1_2aeen"]
+[ext_resource type="Script" uid="uid://dulfproygmqx7" path="res://achievemnt_data.gd" id="1_6yeps"]
+
+[resource]
+script = ExtResource("1_6yeps")
+icon = ExtResource("1_2aeen")
+name = "Urban Boulderer"
+requirements = "Climb 250m in a run."
+flag = "ACH_250_METERS"
+metadata/_custom_type_script = "uid://dulfproygmqx7"

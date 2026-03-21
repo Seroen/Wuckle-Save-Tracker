@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="AchievementData" format=3 uid="uid://cxc8i5f70uoy7"]
+
+[ext_resource type="Script" uid="uid://dulfproygmqx7" path="res://achievemnt_data.gd" id="1_2mpm6"]
+[ext_resource type="Texture2D" uid="uid://bikk55x1x7sl5" path="res://icons/Pathfinder.jpg" id="1_5d1b6"]
+
+[resource]
+script = ExtResource("1_2mpm6")
+icon = ExtResource("1_5d1b6")
+name = "Pathfinder"
+requirements = "Use 100 navigational items."
+flag = "ACH_PATHFINDER"
+stat_id = "navitems-used"
+stat_goal = 100
+metadata/_custom_type_script = "uid://dulfproygmqx7"

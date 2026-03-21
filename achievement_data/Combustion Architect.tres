@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="AchievementData" format=3 uid="uid://b7xkkwx3cm8da"]
+
+[ext_resource type="Texture2D" uid="uid://d4lbwju7gs7r1" path="res://icons/Combustion Architect.jpg" id="1_g5nta"]
+[ext_resource type="Script" uid="uid://dulfproygmqx7" path="res://achievemnt_data.gd" id="1_y0qtk"]
+
+[resource]
+script = ExtResource("1_y0qtk")
+icon = ExtResource("1_g5nta")
+name = "Combustion Architect"
+requirements = "Bound off a Gasbag"
+flag = "ACH_GASBAGJUMP"
+metadata/_custom_type_script = "uid://dulfproygmqx7"

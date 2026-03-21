@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="AchievementData" format=3 uid="uid://crcwa4isxxask"]
+
+[ext_resource type="Texture2D" uid="uid://dqosjw1ivf6nd" path="res://icons/Clocking out.jpg" id="1_gkfac"]
+[ext_resource type="Script" uid="uid://dulfproygmqx7" path="res://achievemnt_data.gd" id="1_ysk4i"]
+
+[resource]
+script = ExtResource("1_ysk4i")
+icon = ExtResource("1_gkfac")
+name = "Clocking out"
+requirements = "Reach the Abyss"
+flag = "ACH_ABYSS"
+metadata/_custom_type_script = "uid://dulfproygmqx7"

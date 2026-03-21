@@ -1,0 +1,347 @@
+[gd_scene format=3 uid="uid://b4sjlym407ukc"]
+
+[ext_resource type="Script" uid="uid://deowb7qgqkyr2" path="res://tracker.gd" id="1_hcafx"]
+[ext_resource type="Script" uid="uid://dulfproygmqx7" path="res://achievemnt_data.gd" id="2_roy7q"]
+[ext_resource type="Resource" uid="uid://b4eyto7j5i4ds" path="res://achievement_data/Plumber.tres" id="3_kkx2k"]
+[ext_resource type="Resource" uid="uid://b5w6x6jwqpgj" path="res://achievement_data/urban_boulderer.tres" id="3_vftbd"]
+[ext_resource type="Resource" uid="uid://dh1fxtgscau07" path="res://achievement_data/How Deep Are We?.tres" id="4_4qhv1"]
+[ext_resource type="Resource" uid="uid://xy88r67ml654" path="res://achievement_data/condemned_no_more.tres" id="4_usr2q"]
+[ext_resource type="Resource" uid="uid://bx3in13ym6mod" path="res://achievement_data/construction_worker.tres" id="5_8gwdq"]
+[ext_resource type="Resource" uid="uid://crcwa4isxxask" path="res://achievement_data/Clocking out.tres" id="5_fc765"]
+[ext_resource type="Resource" uid="uid://6beiml61h4cx" path="res://achievement_data/Talented Scaler.tres" id="5_mgwry"]
+[ext_resource type="Resource" uid="uid://ypfpqf7tvv5m" path="res://achievement_data/endangered.tres" id="5_vftbd"]
+[ext_resource type="Resource" uid="uid://dqbyw5bafontj" path="res://achievement_data/proficient_climber.tres" id="6_0fjnu"]
+[ext_resource type="Resource" uid="uid://cm1kyrqpvv8s0" path="res://achievement_data/Into Her Grasp.tres" id="6_fonmr"]
+[ext_resource type="Resource" uid="uid://d8j0i0idc3ew" path="res://achievement_data/Expert Clamberer.tres" id="6_qu8v8"]
+[ext_resource type="Resource" uid="uid://ctf4dpmuwvcjj" path="res://achievement_data/Rod God.tres" id="7_0fjnu"]
+[ext_resource type="Resource" uid="uid://c6706720qndhj" path="res://achievement_data/accidental_hire.tres" id="7_6u6t3"]
+[ext_resource type="Resource" uid="uid://dbgfkvv7o6c57" path="res://achievement_data/Master Free-Soloist.tres" id="7_7pwoo"]
+[ext_resource type="Resource" uid="uid://d2ocu1h3wab6h" path="res://achievement_data/Masochist.tres" id="7_cpviw"]
+[ext_resource type="Resource" uid="uid://cxc8i5f70uoy7" path="res://achievement_data/Pathfinder.tres" id="7_ua4o7"]
+[ext_resource type="Resource" uid="uid://wrg3g0bplluc" path="res://achievement_data/Probably Not Possible.tres" id="8_52lt5"]
+[ext_resource type="Script" uid="uid://bhvauivghnpb2" path="res://playtime.gd" id="8_eemhr"]
+[ext_resource type="Resource" uid="uid://c7s6slk2jwrsy" path="res://achievement_data/Experimental Research.tres" id="8_fbxjy"]
+[ext_resource type="Resource" uid="uid://2u84dcuvxvep" path="res://achievement_data/Art Enthusiast.tres" id="8_lsj0k"]
+[ext_resource type="Resource" uid="uid://deo0bmb78sa0r" path="res://achievement_data/Beyond Understanding.tres" id="8_w18fx"]
+[ext_resource type="Resource" uid="uid://uyq8w0e1p8kr" path="res://achievement_data/This place again?.tres" id="9_4q4l6"]
+[ext_resource type="Resource" uid="uid://dwafch2v61fbn" path="res://achievement_data/Delusions.tres" id="9_eemhr"]
+[ext_resource type="Resource" uid="uid://bot00uep6sbwd" path="res://achievement_data/Middle Class.tres" id="9_eg0ck"]
+[ext_resource type="Resource" uid="uid://bbkyqwr7r31wg" path="res://achievement_data/Lookout Duty.tres" id="9_ldqyg"]
+[ext_resource type="Resource" uid="uid://b7oufw7jnyben" path="res://achievement_data/Unnatural Enhacements.tres" id="9_rsd14"]
+[ext_resource type="Resource" uid="uid://bboydly4s7df6" path="res://achievement_data/Exterminator.tres" id="9_ua4o7"]
+[ext_resource type="Resource" uid="uid://b2uqvvvs4p7p6" path="res://achievement_data/Reject Mortality.tres" id="10_7fx43"]
+[ext_resource type="Resource" uid="uid://bmvp3aaoi6a3l" path="res://achievement_data/The Day We Died.tres" id="10_22ms2"]
+[ext_resource type="Resource" uid="uid://d0iju45e0ijgq" path="res://achievement_data/The Ladder.tres" id="10_nuxkk"]
+[ext_resource type="Resource" uid="uid://bpajago8r8x4h" path="res://achievement_data/Go Around, Come Around.tres" id="11_eduyn"]
+[ext_resource type="Resource" uid="uid://dqayqsu6fr1tc" path="res://achievement_data/Sight, Sea, Light.tres" id="11_r4677"]
+[ext_resource type="Resource" uid="uid://pvgy8p7v41ew" path="res://achievement_data/High Paying Job.tres" id="11_xwqoc"]
+[ext_resource type="Resource" uid="uid://560jde6dpm1u" path="res://achievement_data/Gold Source.tres" id="11_ya71d"]
+[ext_resource type="Resource" uid="uid://cchm182qn3vm1" path="res://achievement_data/Olympic Grade.tres" id="12_2hhyh"]
+[ext_resource type="Resource" uid="uid://dmqrhx85lfo7g" path="res://achievement_data/Too Big to Fail.tres" id="12_p3872"]
+[ext_resource type="Resource" uid="uid://csrr7aspkhddh" path="res://achievement_data/Getting Merry.tres" id="13_mkusi"]
+[ext_resource type="Resource" uid="uid://cvk8m7nebnkr5" path="res://achievement_data/Up On the Housetop.tres" id="14_qsw3v"]
+[ext_resource type="Resource" uid="uid://bhvqvjtoxk0gk" path="res://achievement_data/Dont Forget Me.tres" id="15_4q4l6"]
+[ext_resource type="Resource" uid="uid://i1pdt2iocnwi" path="res://achievement_data/What a Snack!.tres" id="19_2krmq"]
+[ext_resource type="Resource" uid="uid://c7gk2guwiw68f" path="res://achievement_data/criminal.tres" id="19_qsw3v"]
+[ext_resource type="Resource" uid="uid://dmm5nq4cvpy4y" path="res://achievement_data/I Hate Those Guys.tres" id="20_k3887"]
+[ext_resource type="Resource" uid="uid://b7xkkwx3cm8da" path="res://achievement_data/Combustion Architect.tres" id="21_sc5r3"]
+[ext_resource type="Resource" uid="uid://dtjsjdt16dpoq" path="res://achievement_data/OSHA Violation.tres" id="21_ya71d"]
+[ext_resource type="Resource" uid="uid://cmftkd2kbey7d" path="res://achievement_data/Hair Cut.tres" id="22_2hhyh"]
+[ext_resource type="Resource" uid="uid://ccrp4dp8nh5nd" path="res://achievement_data/New Best Friend.tres" id="22_e34e2"]
+[ext_resource type="Resource" uid="uid://du120noa34tse" path="res://achievement_data/Locked Out.tres" id="23_tpapc"]
+[ext_resource type="Resource" uid="uid://dj7415y1ph8g2" path="res://achievement_data/A New Hatred.tres" id="24_mkusi"]
+[ext_resource type="Resource" uid="uid://ch1nrcjssuw1o" path="res://achievement_data/Get Devoured.tres" id="25_qsw3v"]
+[ext_resource type="Resource" uid="uid://b2y6c62iqnos3" path="res://achievement_data/The Thing In The Walls.tres" id="26_4q4l6"]
+[ext_resource type="Resource" uid="uid://buukok8ci5vyn" path="res://achievement_data/Ballistic Trajectory.tres" id="27_nwbrt"]
+[ext_resource type="Resource" uid="uid://crc6qrftkc6go" path="res://achievement_data/Rocket Scientist.tres" id="28_6xqaw"]
+[ext_resource type="Resource" uid="uid://emy4ef8n5udx" path="res://achievement_data/AAAAAAAAAAA.tres" id="36_q8p7l"]
+[ext_resource type="Script" uid="uid://x6ik0wmqnaum" path="res://completion_bar.gd" id="37_fqjbu"]
+[ext_resource type="Resource" uid="uid://dxew55bp3ya7x" path="res://achievement_data/Mother.tres" id="49_rsd14"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_eemhr"]
+font_size = 32
+
+[node name="Tracker" type="Control" unique_id=704904847]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Button" type="Button" parent="." unique_id=2089051495]
+visible = false
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+text = "Choose save filepath"
+
+[node name="RefreshButton" type="Button" parent="." unique_id=1333155269]
+visible = false
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -68.0
+offset_bottom = 31.0
+grow_horizontal = 0
+text = "Refresh"
+
+[node name="RefreshTimer" type="Timer" parent="." unique_id=1862728007]
+wait_time = 5.0
+autostart = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=39611994]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ScrollContainer" type="ScrollContainer" parent="VBoxContainer" unique_id=1448221379]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer/ScrollContainer" unique_id=1297088694]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="VBoxContainer/ScrollContainer/HBoxContainer" unique_id=1907635154]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Progression" type="Label" parent="VBoxContainer/ScrollContainer/HBoxContainer/VBoxContainer2" unique_id=293944255]
+layout_mode = 2
+text = "Progression"
+horizontal_alignment = 1
+
+[node name="ScrollContainer" type="ScrollContainer" parent="VBoxContainer/ScrollContainer/HBoxContainer/VBoxContainer2" unique_id=1073840922]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Progression" type="VBoxContainer" parent="VBoxContainer/ScrollContainer/HBoxContainer/VBoxContainer2/ScrollContainer" unique_id=1900165202]
+layout_mode = 2
+size_flags_horizontal = 3
+script = ExtResource("1_hcafx")
+achievement_data = Array[ExtResource("2_roy7q")]([ExtResource("3_kkx2k"), ExtResource("4_4qhv1"), ExtResource("5_fc765"), ExtResource("6_fonmr"), ExtResource("7_cpviw")])
+
+[node name="Playtime" type="Label" parent="VBoxContainer/ScrollContainer/HBoxContainer/VBoxContainer2" unique_id=848637312]
+layout_mode = 2
+text = "00:00:00.000"
+label_settings = SubResource("LabelSettings_eemhr")
+script = ExtResource("8_eemhr")
+
+[node name="Magic" type="Label" parent="VBoxContainer/ScrollContainer/HBoxContainer/VBoxContainer2" unique_id=1868728284]
+layout_mode = 2
+text = "✨ Magic ✨"
+horizontal_alignment = 1
+
+[node name="ScrollContainer4" type="ScrollContainer" parent="VBoxContainer/ScrollContainer/HBoxContainer/VBoxContainer2" unique_id=397604870]
+custom_minimum_size = Vector2(0, 170)
+layout_mode = 2
+
+[node name="Magic" type="VBoxContainer" parent="VBoxContainer/ScrollContainer/HBoxContainer/VBoxContainer2/ScrollContainer4" unique_id=599136442]
+layout_mode = 2
+size_flags_horizontal = 3
+script = ExtResource("1_hcafx")
+achievement_data = Array[ExtResource("2_roy7q")]([ExtResource("8_w18fx"), ExtResource("9_eemhr")])
+
+[node name="Computer" type="Label" parent="VBoxContainer/ScrollContainer/HBoxContainer/VBoxContainer2" unique_id=1770957273]
+layout_mode = 2
+text = "Computer"
+horizontal_alignment = 1
+
+[node name="ScrollContainer2" type="ScrollContainer" parent="VBoxContainer/ScrollContainer/HBoxContainer/VBoxContainer2" unique_id=709217710]
+custom_minimum_size = Vector2(0, 250)
+layout_mode = 2
+
+[node name="Computer" type="VBoxContainer" parent="VBoxContainer/ScrollContainer/HBoxContainer/VBoxContainer2/ScrollContainer2" unique_id=569388870]
+layout_mode = 2
+size_flags_horizontal = 3
+script = ExtResource("1_hcafx")
+achievement_data = Array[ExtResource("2_roy7q")]([ExtResource("8_fbxjy"), ExtResource("9_rsd14"), ExtResource("10_7fx43")])
+
+[node name="Climbing" type="VBoxContainer" parent="VBoxContainer/ScrollContainer/HBoxContainer" unique_id=1149182599]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Climbing" type="Label" parent="VBoxContainer/ScrollContainer/HBoxContainer/Climbing" unique_id=339674622]
+layout_mode = 2
+text = "Climbing"
+horizontal_alignment = 1
+
+[node name="ScrollContainer" type="ScrollContainer" parent="VBoxContainer/ScrollContainer/HBoxContainer/Climbing" unique_id=2053247965]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Climbing" type="VBoxContainer" parent="VBoxContainer/ScrollContainer/HBoxContainer/Climbing/ScrollContainer" unique_id=1423600277]
+layout_mode = 2
+size_flags_horizontal = 3
+script = ExtResource("1_hcafx")
+achievement_data = Array[ExtResource("2_roy7q")]([ExtResource("3_vftbd"), ExtResource("6_0fjnu"), ExtResource("5_mgwry"), ExtResource("6_qu8v8"), ExtResource("7_7pwoo"), ExtResource("8_52lt5")])
+
+[node name="Misc" type="Label" parent="VBoxContainer/ScrollContainer/HBoxContainer/Climbing" unique_id=874224079]
+layout_mode = 2
+text = "Misc"
+horizontal_alignment = 1
+
+[node name="ScrollContainer4" type="ScrollContainer" parent="VBoxContainer/ScrollContainer/HBoxContainer/Climbing" unique_id=1840468457]
+custom_minimum_size = Vector2(0, 170)
+layout_mode = 2
+
+[node name="Misc" type="VBoxContainer" parent="VBoxContainer/ScrollContainer/HBoxContainer/Climbing/ScrollContainer4" unique_id=2140019718]
+layout_mode = 2
+size_flags_horizontal = 3
+script = ExtResource("1_hcafx")
+achievement_data = Array[ExtResource("2_roy7q")]([ExtResource("36_q8p7l"), ExtResource("49_rsd14")])
+
+[node name="Endless" type="Label" parent="VBoxContainer/ScrollContainer/HBoxContainer/Climbing" unique_id=1403834096]
+layout_mode = 2
+text = "Endless"
+horizontal_alignment = 1
+
+[node name="ScrollContainer3" type="ScrollContainer" parent="VBoxContainer/ScrollContainer/HBoxContainer/Climbing" unique_id=1075912499]
+custom_minimum_size = Vector2(0, 250)
+layout_mode = 2
+
+[node name="Endless" type="VBoxContainer" parent="VBoxContainer/ScrollContainer/HBoxContainer/Climbing/ScrollContainer3" unique_id=984365862]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("1_hcafx")
+achievement_data = Array[ExtResource("2_roy7q")]([ExtResource("9_4q4l6"), ExtResource("10_22ms2"), ExtResource("11_eduyn")])
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/ScrollContainer/HBoxContainer" unique_id=1257709261]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Challenges" type="Label" parent="VBoxContainer/ScrollContainer/HBoxContainer/VBoxContainer" unique_id=1590690460]
+layout_mode = 2
+text = "Challenges"
+horizontal_alignment = 1
+
+[node name="ScrollContainer2" type="ScrollContainer" parent="VBoxContainer/ScrollContainer/HBoxContainer/VBoxContainer" unique_id=1890625109]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Challenges" type="VBoxContainer" parent="VBoxContainer/ScrollContainer/HBoxContainer/VBoxContainer/ScrollContainer2" unique_id=432712669]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("1_hcafx")
+achievement_data = Array[ExtResource("2_roy7q")]([ExtResource("7_6u6t3"), ExtResource("4_usr2q"), ExtResource("11_ya71d"), ExtResource("12_2hhyh")])
+
+[node name="Secrets" type="Label" parent="VBoxContainer/ScrollContainer/HBoxContainer/VBoxContainer" unique_id=1971474980]
+layout_mode = 2
+text = "Secrets"
+horizontal_alignment = 1
+
+[node name="ScrollContainer5" type="ScrollContainer" parent="VBoxContainer/ScrollContainer/HBoxContainer/VBoxContainer" unique_id=58446683]
+custom_minimum_size = Vector2(0, 340)
+layout_mode = 2
+
+[node name="Secrets" type="VBoxContainer" parent="VBoxContainer/ScrollContainer/HBoxContainer/VBoxContainer/ScrollContainer5" unique_id=1222627350]
+layout_mode = 2
+size_flags_horizontal = 3
+script = ExtResource("1_hcafx")
+achievement_data = Array[ExtResource("2_roy7q")]([ExtResource("8_lsj0k"), ExtResource("9_ldqyg"), ExtResource("10_nuxkk"), ExtResource("11_r4677")])
+
+[node name="Chimney" type="Label" parent="VBoxContainer/ScrollContainer/HBoxContainer/VBoxContainer" unique_id=920456126]
+layout_mode = 2
+text = "Chimney"
+horizontal_alignment = 1
+
+[node name="ScrollContainer4" type="ScrollContainer" parent="VBoxContainer/ScrollContainer/HBoxContainer/VBoxContainer" unique_id=1696462252]
+custom_minimum_size = Vector2(0, 250)
+layout_mode = 2
+
+[node name="Chimney" type="VBoxContainer" parent="VBoxContainer/ScrollContainer/HBoxContainer/VBoxContainer/ScrollContainer4" unique_id=690889422]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("1_hcafx")
+achievement_data = Array[ExtResource("2_roy7q")]([ExtResource("13_mkusi"), ExtResource("14_qsw3v"), ExtResource("15_4q4l6")])
+
+[node name="Continuous" type="VBoxContainer" parent="VBoxContainer/ScrollContainer/HBoxContainer" unique_id=1739887672]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Items" type="Label" parent="VBoxContainer/ScrollContainer/HBoxContainer/Continuous" unique_id=228870852]
+layout_mode = 2
+text = "Item Usage"
+horizontal_alignment = 1
+
+[node name="ScrollContainer" type="ScrollContainer" parent="VBoxContainer/ScrollContainer/HBoxContainer/Continuous" unique_id=1154168454]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Items" type="VBoxContainer" parent="VBoxContainer/ScrollContainer/HBoxContainer/Continuous/ScrollContainer" unique_id=1998814979]
+layout_mode = 2
+size_flags_horizontal = 3
+script = ExtResource("1_hcafx")
+achievement_data = Array[ExtResource("2_roy7q")]([ExtResource("5_8gwdq"), ExtResource("7_0fjnu"), ExtResource("7_ua4o7"), ExtResource("27_nwbrt"), ExtResource("28_6xqaw"), ExtResource("19_qsw3v"), ExtResource("5_vftbd")])
+
+[node name="Banking" type="Label" parent="VBoxContainer/ScrollContainer/HBoxContainer/Continuous" unique_id=2079947449]
+layout_mode = 2
+text = "Banking"
+horizontal_alignment = 1
+
+[node name="ScrollContainer2" type="ScrollContainer" parent="VBoxContainer/ScrollContainer/HBoxContainer/Continuous" unique_id=1765642641]
+custom_minimum_size = Vector2(0, 250)
+layout_mode = 2
+
+[node name="Banking" type="VBoxContainer" parent="VBoxContainer/ScrollContainer/HBoxContainer/Continuous/ScrollContainer2" unique_id=1581501165]
+layout_mode = 2
+size_flags_horizontal = 3
+script = ExtResource("1_hcafx")
+achievement_data = Array[ExtResource("2_roy7q")]([ExtResource("9_eg0ck"), ExtResource("11_xwqoc"), ExtResource("12_p3872")])
+
+[node name="Deaths" type="VBoxContainer" parent="VBoxContainer/ScrollContainer/HBoxContainer" unique_id=289653920]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Deaths" type="Label" parent="VBoxContainer/ScrollContainer/HBoxContainer/Deaths" unique_id=288362869]
+layout_mode = 2
+text = "Deaths"
+horizontal_alignment = 1
+
+[node name="ScrollContainer" type="ScrollContainer" parent="VBoxContainer/ScrollContainer/HBoxContainer/Deaths" unique_id=226129206]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Deaths" type="VBoxContainer" parent="VBoxContainer/ScrollContainer/HBoxContainer/Deaths/ScrollContainer" unique_id=1929224760]
+layout_mode = 2
+size_flags_horizontal = 3
+script = ExtResource("1_hcafx")
+achievement_data = Array[ExtResource("2_roy7q")]([ExtResource("19_2krmq"), ExtResource("20_k3887"), ExtResource("21_ya71d"), ExtResource("22_2hhyh"), ExtResource("23_tpapc"), ExtResource("24_mkusi"), ExtResource("25_qsw3v"), ExtResource("26_4q4l6")])
+
+[node name="Denizens" type="Label" parent="VBoxContainer/ScrollContainer/HBoxContainer/Deaths" unique_id=1046767351]
+layout_mode = 2
+text = "Denizens"
+horizontal_alignment = 1
+
+[node name="ScrollContainer3" type="ScrollContainer" parent="VBoxContainer/ScrollContainer/HBoxContainer/Deaths" unique_id=1019691400]
+custom_minimum_size = Vector2(0, 250)
+layout_mode = 2
+
+[node name="Denizens" type="VBoxContainer" parent="VBoxContainer/ScrollContainer/HBoxContainer/Deaths/ScrollContainer3" unique_id=1615216505]
+layout_mode = 2
+size_flags_horizontal = 3
+script = ExtResource("1_hcafx")
+achievement_data = Array[ExtResource("2_roy7q")]([ExtResource("21_sc5r3"), ExtResource("22_e34e2"), ExtResource("9_ua4o7")])
+
+[node name="CompletionBar" type="ProgressBar" parent="VBoxContainer" unique_id=1086551283 node_paths=PackedStringArray("trackers")]
+self_modulate = Color(0, 1, 0, 1)
+layout_mode = 2
+max_value = 53.0
+script = ExtResource("37_fqjbu")
+trackers = [NodePath("../ScrollContainer/HBoxContainer/Climbing/ScrollContainer/Climbing"), NodePath("../ScrollContainer/HBoxContainer/Climbing/ScrollContainer3/Endless"), NodePath("../ScrollContainer/HBoxContainer/VBoxContainer/ScrollContainer2/Challenges"), NodePath("../ScrollContainer/HBoxContainer/VBoxContainer/ScrollContainer4/Chimney"), NodePath("../ScrollContainer/HBoxContainer/Continuous/ScrollContainer/Items"), NodePath("../ScrollContainer/HBoxContainer/Climbing/ScrollContainer4/Misc"), NodePath("../ScrollContainer/HBoxContainer/Continuous/ScrollContainer2/Banking"), NodePath("../ScrollContainer/HBoxContainer/Deaths/ScrollContainer/Deaths"), NodePath("../ScrollContainer/HBoxContainer/Deaths/ScrollContainer3/Denizens"), NodePath("../ScrollContainer/HBoxContainer/VBoxContainer2/ScrollContainer/Progression"), NodePath("../ScrollContainer/HBoxContainer/VBoxContainer2/ScrollContainer2/Computer"), NodePath("../ScrollContainer/HBoxContainer/VBoxContainer/ScrollContainer5/Secrets"), NodePath("../ScrollContainer/HBoxContainer/VBoxContainer2/ScrollContainer4/Magic")]
+
+[connection signal="pressed" from="RefreshButton" to="." method="_on_refresh_button_pressed"]
+[connection signal="timeout" from="RefreshTimer" to="VBoxContainer/ScrollContainer/HBoxContainer/VBoxContainer2/Playtime" method="_on_refresh_timer_timeout"]
+[connection signal="timeout" from="RefreshTimer" to="VBoxContainer/ScrollContainer/HBoxContainer/VBoxContainer/ScrollContainer2/Challenges" method="_on_refresh_timer_timeout"]
+[connection signal="timeout" from="RefreshTimer" to="VBoxContainer/CompletionBar" method="_on_refresh_timer_timeout"]

@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="AchievementData" format=3 uid="uid://dqayqsu6fr1tc"]
+
+[ext_resource type="Script" uid="uid://dulfproygmqx7" path="res://achievemnt_data.gd" id="1_52bfw"]
+[ext_resource type="Texture2D" uid="uid://dyevnn8sae0xk" path="res://icons/Sight, Sea, Light.jpg" id="1_nkbtc"]
+
+[resource]
+script = ExtResource("1_52bfw")
+icon = ExtResource("1_nkbtc")
+name = "Sight, Sea, Light"
+requirements = "Enter the delta rift."
+flag = "ACH_DELTADREAM"
+metadata/_custom_type_script = "uid://dulfproygmqx7"

@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="AchievementData" format=3 uid="uid://dtjsjdt16dpoq"]
+
+[ext_resource type="Script" uid="uid://dulfproygmqx7" path="res://achievemnt_data.gd" id="1_0id17"]
+[ext_resource type="Texture2D" uid="uid://rbywyg4kl7ve" path="res://icons/OSHA Violation.jpg" id="1_e7r48"]
+
+[resource]
+script = ExtResource("1_0id17")
+icon = ExtResource("1_e7r48")
+name = "OSHA Violation"
+requirements = "Die to a crusher."
+flag = "ACH_CRUSHED"
+metadata/_custom_type_script = "uid://dulfproygmqx7"

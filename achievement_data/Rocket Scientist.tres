@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="AchievementData" format=3 uid="uid://crc6qrftkc6go"]
+
+[ext_resource type="Texture2D" uid="uid://bje04uvdhtvep" path="res://icons/Rocket Scientist.jpg" id="1_fstv0"]
+[ext_resource type="Script" uid="uid://dulfproygmqx7" path="res://achievemnt_data.gd" id="1_ppgr6"]
+
+[resource]
+script = ExtResource("1_ppgr6")
+icon = ExtResource("1_fstv0")
+name = "Rocket Scientist"
+requirements = "Perform a rocket jump."
+flag = "ACH_ROCKETJUMP"
+metadata/_custom_type_script = "uid://dulfproygmqx7"

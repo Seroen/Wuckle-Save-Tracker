@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="AchievementData" format=3 uid="uid://bmvp3aaoi6a3l"]
+
+[ext_resource type="Script" uid="uid://dulfproygmqx7" path="res://achievemnt_data.gd" id="1_o37gm"]
+[ext_resource type="Texture2D" uid="uid://bvsmts2oibmum" path="res://icons/The Day We Died.jpg" id="1_w4wig"]
+
+[resource]
+script = ExtResource("1_o37gm")
+icon = ExtResource("1_w4wig")
+name = "The Day We Died"
+requirements = "Reach Lost Pier."
+flag = "ACH_LOSTPIER"
+metadata/_custom_type_script = "uid://dulfproygmqx7"

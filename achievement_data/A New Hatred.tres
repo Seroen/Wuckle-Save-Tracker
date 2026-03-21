@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="AchievementData" format=3 uid="uid://dj7415y1ph8g2"]
+
+[ext_resource type="Texture2D" uid="uid://6vcru2cw3dyy" path="res://icons/A New Hatred.jpg" id="1_a05f6"]
+[ext_resource type="Script" uid="uid://dulfproygmqx7" path="res://achievemnt_data.gd" id="1_w6dy3"]
+
+[resource]
+script = ExtResource("1_w6dy3")
+icon = ExtResource("1_a05f6")
+name = "A New Hatred"
+requirements = "Die to steam."
+flag = "ACH_STEAMDEATH"
+metadata/_custom_type_script = "uid://dulfproygmqx7"

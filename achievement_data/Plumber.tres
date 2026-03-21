@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="AchievementData" format=3 uid="uid://b4eyto7j5i4ds"]
+
+[ext_resource type="Script" uid="uid://dulfproygmqx7" path="res://achievemnt_data.gd" id="1_0qykb"]
+[ext_resource type="Texture2D" uid="uid://dpbn7lnhbsvbd" path="res://icons/Plumber.jpg" id="1_yqo7h"]
+
+[resource]
+script = ExtResource("1_0qykb")
+icon = ExtResource("1_yqo7h")
+name = "Plumber"
+requirements = "Reach Pipeworks."
+flag = "ACH_PIPEWORKS"
+metadata/_custom_type_script = "uid://dulfproygmqx7"

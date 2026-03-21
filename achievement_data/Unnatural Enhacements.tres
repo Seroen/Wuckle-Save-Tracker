@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="AchievementData" format=3 uid="uid://b7oufw7jnyben"]
+
+[ext_resource type="Texture2D" uid="uid://by0xdwqwv2d6k" path="res://icons/Unnatural Enhacements.jpg" id="1_d7n7m"]
+[ext_resource type="Script" uid="uid://dulfproygmqx7" path="res://achievemnt_data.gd" id="1_qqtgi"]
+
+[resource]
+script = ExtResource("1_qqtgi")
+icon = ExtResource("1_d7n7m")
+name = "Unnatural Enhacements"
+requirements = "Get a perk."
+flag = "ACH_GETPERK"
+metadata/_custom_type_script = "uid://dulfproygmqx7"

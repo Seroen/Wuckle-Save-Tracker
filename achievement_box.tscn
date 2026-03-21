@@ -1,0 +1,97 @@
+[gd_scene format=3 uid="uid://bsug00hpl325e"]
+
+[ext_resource type="Script" uid="uid://bpoit2pi2eadu" path="res://achievement_box.gd" id="1_u0adu"]
+[ext_resource type="Texture2D" uid="uid://ddaxdnuslc0pl" path="res://icons/Urban Boulderer.jpg" id="2_s2vpf"]
+
+[sub_resource type="Theme" id="Theme_u0adu"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_u0adu"]
+font_size = 12
+
+[sub_resource type="LabelSettings" id="LabelSettings_s2vpf"]
+font_size = 10
+
+[sub_resource type="LabelSettings" id="LabelSettings_3qyvk"]
+font_size = 10
+
+[node name="AchievementBox" type="Control" unique_id=593604187 node_paths=PackedStringArray("icon_node", "name_node", "requ_node", "check_node", "stat_label", "stat_bar")]
+custom_minimum_size = Vector2(250, 80)
+layout_mode = 3
+anchor_right = 0.22200002
+anchor_bottom = 0.19800001
+offset_right = 0.25598145
+offset_bottom = -0.3040161
+script = ExtResource("1_u0adu")
+icon_node = NodePath("HBoxContainer/AchIcon")
+name_node = NodePath("HBoxContainer/VBoxContainer/VBoxContainer/AchName")
+requ_node = NodePath("HBoxContainer/VBoxContainer/VBoxContainer/AchRecq")
+check_node = NodePath("CheckLabel")
+stat_label = NodePath("HBoxContainer/VBoxContainer/VBoxContainer2/StatLabel")
+stat_bar = NodePath("HBoxContainer/VBoxContainer/VBoxContainer2/StatBar")
+
+[node name="Panel" type="Panel" parent="." unique_id=1305116587]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme_u0adu")
+
+[node name="CheckLabel" type="Label" parent="." unique_id=1581748166]
+visible = false
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -16.0
+offset_bottom = 23.0
+grow_horizontal = 0
+text = "✅ "
+horizontal_alignment = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="." unique_id=937981317]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="AchIcon" type="TextureRect" parent="HBoxContainer" unique_id=1056003202]
+layout_mode = 2
+texture = ExtResource("2_s2vpf")
+expand_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer" unique_id=1008533490]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer/VBoxContainer" unique_id=1597976665]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="AchName" type="Label" parent="HBoxContainer/VBoxContainer/VBoxContainer" unique_id=284603675]
+layout_mode = 2
+text = "TEST"
+label_settings = SubResource("LabelSettings_u0adu")
+
+[node name="AchRecq" type="Label" parent="HBoxContainer/VBoxContainer/VBoxContainer" unique_id=260152376]
+layout_mode = 2
+text = "Test."
+label_settings = SubResource("LabelSettings_s2vpf")
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="HBoxContainer/VBoxContainer" unique_id=324845125]
+layout_mode = 2
+alignment = 2
+
+[node name="StatLabel" type="Label" parent="HBoxContainer/VBoxContainer/VBoxContainer2" unique_id=812016347]
+visible = false
+layout_mode = 2
+text = "0/100"
+label_settings = SubResource("LabelSettings_3qyvk")
+
+[node name="StatBar" type="ProgressBar" parent="HBoxContainer/VBoxContainer/VBoxContainer2" unique_id=1593831777]
+visible = false
+layout_mode = 2
+theme_override_font_sizes/font_size = 12

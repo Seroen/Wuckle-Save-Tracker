@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="AchievementData" format=3 uid="uid://dqbyw5bafontj"]
+
+[ext_resource type="Texture2D" uid="uid://bli0ual4l02pi" path="res://icons/Proficient Climber.jpg" id="1_cwnc6"]
+[ext_resource type="Script" uid="uid://dulfproygmqx7" path="res://achievemnt_data.gd" id="1_pf5kr"]
+
+[resource]
+script = ExtResource("1_pf5kr")
+icon = ExtResource("1_cwnc6")
+name = "Proficient Climber"
+requirements = "Climb 500m in a run."
+flag = "ACH_500_METERS"
+metadata/_custom_type_script = "uid://dulfproygmqx7"

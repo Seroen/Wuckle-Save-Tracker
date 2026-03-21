@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="AchievementData" format=3 uid="uid://i1pdt2iocnwi"]
+
+[ext_resource type="Texture2D" uid="uid://limxb62tu06h" path="res://icons/What a Snack!.jpg" id="1_0n3l6"]
+[ext_resource type="Script" uid="uid://dulfproygmqx7" path="res://achievemnt_data.gd" id="1_2ditq"]
+
+[resource]
+script = ExtResource("1_2ditq")
+icon = ExtResource("1_0n3l6")
+name = "What a Snack!"
+requirements = "Die to a barnacle."
+flag = "ACH_BARNACLED"
+metadata/_custom_type_script = "uid://dulfproygmqx7"

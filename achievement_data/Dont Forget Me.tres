@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="AchievementData" format=3 uid="uid://bhvqvjtoxk0gk"]
+
+[ext_resource type="Texture2D" uid="uid://dd2tde4ll73hp" path="res://icons/Dont Forget Me.jpg" id="1_f1pok"]
+[ext_resource type="Script" uid="uid://dulfproygmqx7" path="res://achievemnt_data.gd" id="1_h036e"]
+
+[resource]
+script = ExtResource("1_h036e")
+icon = ExtResource("1_f1pok")
+name = "Dont Forget Me"
+requirements = "Complete the Marionette secret."
+flag = "ACH_MARIONETTE"
+metadata/_custom_type_script = "uid://dulfproygmqx7"

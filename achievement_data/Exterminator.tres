@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="AchievementData" format=3 uid="uid://bboydly4s7df6"]
+
+[ext_resource type="Texture2D" uid="uid://bphdmm7s7dskq" path="res://icons/Exterminator.jpg" id="1_cls2y"]
+[ext_resource type="Script" uid="uid://dulfproygmqx7" path="res://achievemnt_data.gd" id="1_m82ec"]
+
+[resource]
+script = ExtResource("1_m82ec")
+icon = ExtResource("1_cls2y")
+name = "Exterminator"
+requirements = "Smash 100 roaches."
+flag = "ACH_ROACHSMASH"
+stat_id = "roach-killed"
+stat_goal = 100
+metadata/_custom_type_script = "uid://dulfproygmqx7"
