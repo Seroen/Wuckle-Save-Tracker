@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dy4ipm0v7yc1u"
-path="res://.godot/imported/How Deep Are We?.jpg-84e23a98270e38574ddd18ea323099b0.ctex"
+uid="uid://div2bg5275ak4"
+path="res://.godot/imported/This place again.jpg-e0b22b56a20aa5b38f9cf7793b84c657.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://icons/How Deep Are We?.jpg"
-dest_files=["res://.godot/imported/How Deep Are We?.jpg-84e23a98270e38574ddd18ea323099b0.ctex"]
+source_file="res://icons/This place again.jpg"
+dest_files=["res://.godot/imported/This place again.jpg-e0b22b56a20aa5b38f9cf7793b84c657.ctex"]
 
 [params]
 
