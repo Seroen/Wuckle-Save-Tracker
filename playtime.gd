@@ -1,7 +1,7 @@
 extends Label
 
 
-var save_path : String = "/home/seroen/.steam/debian-installation/steamapps/compatdata/3195790/pfx/drive_c/users/steamuser/AppData/LocalLow/Dark Machine/White Knuckle/save.json"
+var save_path : String = "C:/Users/Jivicks/AppData/LocalLow/Dark Machine/White Knuckle/save.json"
 
 @export var completion_bar : CompletionBar
 
@@ -11,7 +11,6 @@ var time : float
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	sync_timer(save_path)
-	print(time)
 
 
 func _process(delta: float) -> void:
@@ -26,7 +25,8 @@ func _process(delta: float) -> void:
 
 func sync_timer(filepath : String):
 	var save_file = FileAccess.open(filepath, FileAccess.READ)
-	
+	if save_file == null:
+		return
 	var save_data : Dictionary = JSON.parse_string(save_file.get_as_text())
 	
 	for stat in save_data.gameStats.statistics:

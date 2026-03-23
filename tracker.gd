@@ -4,7 +4,7 @@ class_name Tracker
 
 @export var achievement_data : Array[AchievementData]
 
-var save_path : String = "/home/seroen/.steam/debian-installation/steamapps/compatdata/3195790/pfx/drive_c/users/steamuser/AppData/LocalLow/Dark Machine/White Knuckle/save.json"
+var save_path : String = "C:/Users/Jivicks/AppData/LocalLow/Dark Machine/White Knuckle/save.json"
 var ach_box_scene = preload("uid://bsug00hpl325e")
 
 
@@ -33,12 +33,18 @@ func update_tracker(filepath : String):
 		for flag : Dictionary in flags:
 			if flag.name == ach.flag:
 				ach.completed = flag.value
+
 		
 		if ach.stat_id:
+			var has_stat : bool = false
 			for stat : Dictionary in stats:
+				
 				if ach.stat_id == stat.id:
 					ach.stat_current = stat.value
-		
+					has_stat = true
+			if has_stat == false:
+				ach.stat_current = 0
+				
 		if ach.bank_goal:
 			for bank in banks:
 				ach.bank_max = max(ach.bank_max, bank.value)

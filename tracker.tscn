@@ -334,14 +334,24 @@ size_flags_horizontal = 3
 script = ExtResource("1_hcafx")
 achievement_data = Array[ExtResource("2_roy7q")]([ExtResource("21_sc5r3"), ExtResource("22_e34e2"), ExtResource("9_ua4o7")])
 
-[node name="CompletionBar" type="ProgressBar" parent="VBoxContainer" unique_id=1086551283 node_paths=PackedStringArray("trackers")]
+[node name="CompletionBar" type="ProgressBar" parent="VBoxContainer" unique_id=1086551283]
 self_modulate = Color(0, 1, 0, 1)
 layout_mode = 2
 max_value = 53.0
 script = ExtResource("37_fqjbu")
-trackers = [NodePath("../ScrollContainer/HBoxContainer/Climbing/ScrollContainer/Climbing"), NodePath("../ScrollContainer/HBoxContainer/Climbing/ScrollContainer3/Endless"), NodePath("../ScrollContainer/HBoxContainer/VBoxContainer/ScrollContainer2/Challenges"), NodePath("../ScrollContainer/HBoxContainer/VBoxContainer/ScrollContainer4/Chimney"), NodePath("../ScrollContainer/HBoxContainer/Continuous/ScrollContainer/Items"), NodePath("../ScrollContainer/HBoxContainer/Climbing/ScrollContainer4/Misc"), NodePath("../ScrollContainer/HBoxContainer/Continuous/ScrollContainer2/Banking"), NodePath("../ScrollContainer/HBoxContainer/Deaths/ScrollContainer/Deaths"), NodePath("../ScrollContainer/HBoxContainer/Deaths/ScrollContainer3/Denizens"), NodePath("../ScrollContainer/HBoxContainer/VBoxContainer2/ScrollContainer/Progression"), NodePath("../ScrollContainer/HBoxContainer/VBoxContainer2/ScrollContainer2/Computer"), NodePath("../ScrollContainer/HBoxContainer/VBoxContainer/ScrollContainer5/Secrets"), NodePath("../ScrollContainer/HBoxContainer/VBoxContainer2/ScrollContainer4/Magic")]
 
 [connection signal="pressed" from="RefreshButton" to="." method="_on_refresh_button_pressed"]
+[connection signal="timeout" from="RefreshTimer" to="VBoxContainer/ScrollContainer/HBoxContainer/VBoxContainer2/ScrollContainer/Progression" method="_on_refresh_timer_timeout"]
 [connection signal="timeout" from="RefreshTimer" to="VBoxContainer/ScrollContainer/HBoxContainer/VBoxContainer2/Playtime" method="_on_refresh_timer_timeout"]
+[connection signal="timeout" from="RefreshTimer" to="VBoxContainer/ScrollContainer/HBoxContainer/VBoxContainer2/ScrollContainer4/Magic" method="_on_refresh_timer_timeout"]
+[connection signal="timeout" from="RefreshTimer" to="VBoxContainer/ScrollContainer/HBoxContainer/VBoxContainer2/ScrollContainer2/Computer" method="_on_refresh_timer_timeout"]
+[connection signal="timeout" from="RefreshTimer" to="VBoxContainer/ScrollContainer/HBoxContainer/Climbing/ScrollContainer/Climbing" method="_on_refresh_timer_timeout"]
+[connection signal="timeout" from="RefreshTimer" to="VBoxContainer/ScrollContainer/HBoxContainer/Climbing/ScrollContainer4/Misc" method="_on_refresh_timer_timeout"]
+[connection signal="timeout" from="RefreshTimer" to="VBoxContainer/ScrollContainer/HBoxContainer/Climbing/ScrollContainer3/Endless" method="_on_refresh_timer_timeout"]
 [connection signal="timeout" from="RefreshTimer" to="VBoxContainer/ScrollContainer/HBoxContainer/VBoxContainer/ScrollContainer2/Challenges" method="_on_refresh_timer_timeout"]
+[connection signal="timeout" from="RefreshTimer" to="VBoxContainer/ScrollContainer/HBoxContainer/VBoxContainer/ScrollContainer5/Secrets" method="_on_refresh_timer_timeout"]
+[connection signal="timeout" from="RefreshTimer" to="VBoxContainer/ScrollContainer/HBoxContainer/VBoxContainer/ScrollContainer4/Chimney" method="_on_refresh_timer_timeout"]
+[connection signal="timeout" from="RefreshTimer" to="VBoxContainer/ScrollContainer/HBoxContainer/Continuous/ScrollContainer/Items" method="_on_refresh_timer_timeout"]
+[connection signal="timeout" from="RefreshTimer" to="VBoxContainer/ScrollContainer/HBoxContainer/Continuous/ScrollContainer2/Banking" method="_on_refresh_timer_timeout"]
+[connection signal="timeout" from="RefreshTimer" to="VBoxContainer/ScrollContainer/HBoxContainer/Deaths/ScrollContainer3/Denizens" method="_on_refresh_timer_timeout"]
 [connection signal="timeout" from="RefreshTimer" to="VBoxContainer/CompletionBar" method="_on_refresh_timer_timeout"]
